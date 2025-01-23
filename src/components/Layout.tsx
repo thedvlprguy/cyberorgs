@@ -75,7 +75,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <GitFork className="w-6 h-6" />
               </a>
               <a
-                href="https://github.com/thedvlprguy/cyberorgs/stargazers"
+                href="https://github.com/thedvlprguy/cyberorgs/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-kali-text hover:text-kali-primary transition"
@@ -156,13 +156,13 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               Made with 💚 by <a href="https://github.com/thedvlprguy" target="_blank" rel="noopener noreferrer" className="text-kali-primary hover:text-kali-secondary">@thedvlprguy</a>
             </p>
             <div className="flex space-x-6">
-              <Link to="/" className="text-kali-text hover:text-kali-primary transition">
+              <Link to="https://github.com/thedvlprguy/cyberorgs/wiki" target="_blank" className="text-kali-text hover:text-kali-primary transition">
                 <Globe className="w-5 h-5" />
               </Link>
               <Link to="/resources" className="text-kali-text hover:text-kali-primary transition">
                 <BookOpen className="w-5 h-5" />
               </Link>
-              <Link to="/organizations" className="text-kali-text hover:text-kali-primary transition">
+              <Link to="https://github.com/cyberorgs" className="text-kali-text hover:text-kali-primary transition">
                 <Users className="w-5 h-5" />
               </Link>
             </div>
